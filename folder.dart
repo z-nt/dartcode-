@@ -1,9 +1,18 @@
 
 
+ import 'dart:io';
+
+
+
+List <File> infolder = [];
+
 List DISCK =[];
 
 
-void createList(dynamic name){
+
+
+
+dynamic createList(dynamic name){
     List newList  = [];
     name = newList;
       return checkList(name);
